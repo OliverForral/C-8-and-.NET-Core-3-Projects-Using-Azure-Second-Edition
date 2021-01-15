@@ -6,4 +6,9 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\eBookManager.Engine\eBookManager.Engine.csproj" />
+    <ProjectReference Include="..\eBookManager.Helper\eBookManager.Helper.csproj" />
+  </ItemGroup>
+
 </Project>
